@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guia e introdutório sobre HTML com exemplos práticos.">
+    <title>GarotaDaTech</title>
+</head>
+
+<body>
+    <main>
+        <h1 id="inicio">HTML: Linguagem de Marcação de Hipertexto</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="#introducao">Introdução ao <i>Html</i></a></li>
+                <li><a href="#estrutura-basica">Como é a estrutura básica</a></li>
+                <li><a href="#atributos">O que são atributos</a></li>
+                <li><a href="#links-e-imagens">Como Links e Imagens</a></li>
+                <li><a href="#listas">O que são Listas</a></li>
+                <li><a href="#tabelas">O que são Tabelas</a></li>
+                <li><a href="#formulario">O que é Formulário</a></li>
+                <li><a href="#links">Links de referências</a></li>
+            </ul>
+        </nav>
+        <h2 id="introducao">Introdução ao <i>Html</i></h2>
+      
+        <small><sup>*</sup> <sub ><a href="#inicio">(voltar)</a></sub></a></small>
+        <p>HTML <abbr title="HTML">(HyperText Markup Language)</abbr> é a linguagem padrão para criar páginas web. Ela
+            define a estrutura do
+            conteúdo na web, permitindo que os navegadores interpretem e exibam o texto, imagens, vídeos e outros
+            elementos.</p>
+
+        <h2 id="estrutura-basica">Como é a estrutura básica</h2>
+        
+        <small><sup>*</sup> <sub><a href="#inicio">(voltar)</a></sub></a></small>
+        <p>Uma página HTML básica é composta por elementos que definem o cabeçalho, o corpo e outros componentes. Aqui
+            está um exemplo simples:</p>
+        <pre>
+     <font color="blue" size="2" face="Courier New" style="font-size: 12px;">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;   
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Título da Página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Bem-vindo ao HTML!&lt;/h1&gt;
+    &lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;  
+&lt;/body&gt;
+&lt;/html&gt;
+</font>
+</pre>
+
+
+        <h2 id="atributos">O que são atributos</h2>
+        
+        <small><sup>*</sup> <sub ><a href="#inicio">(voltar)</a></sub></a></small>
+        <p>Os atributos fornecem informações adicionais sobre os elementos HTML. Eles são especificados dentro da tag de
+            abertura do elemento.Exemplo:</p>
+
+        <font color="blue" size="2" face="Courier New" style="font-size: 12px;">
+        &lt;a href="https://www.dio.me/" target="_blank"&gt;Visite o Exemplo&lt;/a&gt;
+        </font>
+
+        <p><mark>Neste exemplo, o atributo <strong>href</strong> define o link para o qual o elemento <strong>a</strong>
+                aponta, e o
+                atributo <strong>target="_blank"</strong> faz com que o link seja aberto em uma nova aba.</mark></p>
+
+        <h2 id="links-e-imagens">Links e Imagens</h2>
+        
+        <small><sup>*</sup> <sub><a href="#inicio">(voltar)</a></sub></a></small>
+        <p>Links são criados usando a tag <strong>a</strong>, enquanto imagens são inseridas com a tag
+            <strong>img</strong>.
+            Aqui está um exemplo de cada:</p>
+        <font color="blue" size="2" face="Courier New" style="font-size: 12px;">
+            &lt;a href="https://www.example.com"&gt;Clique aqui&lt;/a&gt;
+            &lt;img src="imagem.jpg" alt="Descrição da Imagem"&gt;
+        </font>
+        <p><mark>O atributo <strong>src</strong> especifica o caminho da imagem, enquanto o atributo
+                <strong>alt</strong> fornece uma
+                descrição alternativa para a imagem.</mark></p>
+        <h2 id="listas">O que são listas</h2>
+       
+        <small><sup>*</sup> <sub ><a href="#inicio">(voltar)</a></sub></a></small>
+        <p>Listas podem ser ordenadas <strong>(<u>ol</u>)</strong> ou não ordenadas <strong>(<u>ul</u>)</strong>.O exemplo de cada:</p>
+        <pre>
+    <font color="blue" size="2" face="Courier New" style="font-size: 12px;">
+&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+    &lt;li&gt;Primeiro&lt;/li&gt;
+    &lt;li&gt;Segundo&lt;/li&gt;       
+    &lt;li&gt;Terceiro&lt;/li&gt;
+&lt;/ol&gt;
+
+</font>
+         </pre>
+        <h2 id="tabelas">O que são Tabelas</h2>
+        
+        <small><sup>*</sup> <sub ><a href="#inicio">(voltar)</a></sub></a></small>
+        <p>Tabelas são criadas com a tag <strong>table</strong>, e cada linha é definida com <strong>tr</strong>,
+            enquanto as
+            células são definidas com <strong>td:</strong></p>
+        <pre>
+    <font color="blue" size="2" face="Courier New" style="font-size: 12px;">
+    
+    &lt;table&gt;
+    &lt;tr&gt;      
+        
+        &lt;th>Coluna 1&lt;/th&gt;
+        &lt;th>Coluna 2&lt;/th&gt;  
+                
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td>Dados 1&lt;/td&gt;
+        &lt;td>Dados 2&lt;/td&gt;       
+    &lt;/tr&gt;
+    &lt;tr&gt;  
+        &lt;td>Dados 3&lt;/td&gt;
+        &lt;td>Dados 4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/table&gt;
+
+</font>
+        </pre>
+        <p><mark>As tags <strong>th</strong> são usadas para cabeçalhos de tabela, enquanto <strong>td</strong> são
+                usadas para
+                células de dados.</mark></p>
+
+        <h2 id="formulario">O que é Formulário</h2>
+        
+        <small><sup>*</sup> <sub ><a href="#inicio">(voltar)</a></sub></a></small>
+        <p>Formulários são usados para coletar dados do usuário. Eles são criados com a tag
+            <strong>&lt;form&gt;</strong>, e os
+            campos de entrada são definidos com tags como <strong>input</strong>, <strong>textarea</strong> e
+            <strong>select</strong>.
+        </p>
+
+        <blockquote><u>Aqui está um exemplo simples:</u></blockquote>
+        <pre>
+    <font color="blue" size="2" face="Courier New" style="font-size: 12px;">
+
+    &lt;form action="submit" method="post"&gt;
+    &lt;label for="nome"&gt;Nome:&lt;/label&gt;
+    &lt;input type="text" id="nome" name="nome" required&gt;
+    &lt;br&gt;
+    &lt;label for="email"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="email" name="email" required&gt;
+    &lt;br&gt;
+    &lt;label for="mensagem"&gt;Mensagem:&lt;/label&gt;
+    &lt;textarea id="mensagem" name="mensagem" rows="4" cols="50"&gt;&lt;/textarea&gt;
+    &lt;br&gt;
+    &lt;input type="submit" value="Enviar"&gt;
+    &lt;/form&gt;
+
+    </font>
+     </pre>
+        <p><mark>O atributo <strong>action</strong> especifica para onde os dados do formulário serão enviados, enquanto o
+            atributo <strong>method</strong> define o método HTTP a ser usado (geralmente <u>"post"</u> ou <u>"get"</u> )</mark>.</p>
+
+        <h2 id="links">Links de referências</h2>
+         
+        <small><sup>*</sup> <sub ><a href="#inicio">(voltar)</a></sub></a></small>
+        <p>Para aprender mais sobre <i>HTML</i>, você pode visitar os seguintes links:</p>
+        <ul>
+            <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML Tutorial</a></li>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+            <li><a href="https://www.dio.me/" target="_blank">DIO - Digital Innovation One</a></li>
+        </ul>
+    </main>
+
+    <hr>
+    <footer>
+        <p>Desenvolvido no Bootcamp de Front-End.</p>
+        <p><del>2025</del> Ana Cris A. Muniz</p>
+    </footer>
+</body>
+</html>
